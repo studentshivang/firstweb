@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* background-color: rgb(138, 226, 79); */
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mainheader{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainheader .logo img{
+    width: 250px;
+    height:70px;
+    padding-left: 40px;
+    
+}
+.mainheader nav{
+    width:450px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.mainheader a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.menubtn{
+    margin-right: 60px;
+}
+.mainheader button{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: white;   
+    border: none;
+    background-image:linear-gradient(to right,#649bff,#0070fa,#649bff) ;
+    border-radius: 10px;
+}
+main{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .right-sec{
+    padding: 0 0 50px 0;
+}
+main .left-sec{
+    padding-left: 100px;
+    text-align: left;
+
+}
+.left-sec h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight:lighter;
+    color:#242424;
+    margin-top: 25px;
+}
+.left-sec h1{
+    font-size: 55px;
+    text-transform: capitalize;
+    font-weight:700;
+    color:#242424;
+    margin: 12px 0;
+}
+.left-sec p{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.left-sec button{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: white;   
+    border: none;
+    background-image:linear-gradient(to right,#649bff,#0070fa,#649bff) ;
+    border-radius: 10px;
+}
